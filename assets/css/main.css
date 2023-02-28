@@ -46,6 +46,8 @@ blockquote, q {
 		content: none;
 	}
 
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -2348,6 +2350,9 @@ input, select, textarea {
 		}
 
 /* Image */
+	img {
+  border: 6px solid #000000d6;
+}
 
 	.image {
 		border: 0;
@@ -2357,6 +2362,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+			
 		}
 
 		.image[data-position] img {
@@ -2501,6 +2507,7 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+				border: 0px solid #000000d6;
 			}
 
 			.image.main:first-child {
@@ -2513,6 +2520,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
+			
 		}
 
 			.image.fill img {
@@ -2521,7 +2529,10 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				width: 100%;
+				border: 0px;
 			}
+
+
 
 /* List */
 
